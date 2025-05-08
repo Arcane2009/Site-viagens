@@ -1,0 +1,31 @@
+:root {
+    --amarelo-principal:#FFE670;
+    --amarelo-escuro:#FFD570;
+    --laranja-principal:#FFC370;
+    --laranja-escuro:#FFAB70;
+    --vermelho:#FF9270;
+    --bege:#FFE7C5;
+    --branco:#FFFFFF;
+    
+    }
+    
+    body{
+        background-color:var(--laranja-principal);
+        color:var(--branco);
+    }
+    
+    .principal{
+    background-image: url("imagens/Frame\ 27.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    }
+
+.container{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}    
+.titulo{
+    font-size: larger;
+}
