@@ -6,26 +6,55 @@
     --vermelho:#FF9270;
     --bege:#FFE7C5;
     --branco:#FFFFFF;
-    
+    --fonte-principal:"PT Serif"
     }
     
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     body{
         background-color:var(--laranja-principal);
         color:var(--branco);
-    }
-    
-    .principal{
-    background-image: url("imagens/Frame\ 27.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+        font-family:var(--fonte-principal);
+        font-size: 16px;
+        font-weight: 400;
     }
 
-.container{
-    height: 50vh;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}    
-.titulo{
-    font-size: larger;
+    .container{
+        height:100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }    
+h1{
+    font-size: 28px;
+    text-align: center;
+    width: 588px;
+}
+
+.container__botao{
+    background-color:var(--amarelo-escuro);
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.container__avião{
+    size: auto;
+}
+
+.container__aviso{
+    color: black;
+}
+
+.combo{
+    
+    border-radius: 20px;
+    padding: 1em;
+    background-color:var(--laranja-principal);
+    text-decoration-line: none;
+    text-align: center;
 }
