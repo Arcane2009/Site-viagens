@@ -28,8 +28,7 @@
     }    
 h1{
     font-size: 28px;
-    text-align: center;
-    width: 588px;
+    margin: 2em 0 0 0;
 }
 
 .container__botao{
@@ -43,18 +42,31 @@ h1{
 }
 
 .container__avião{
+    font-size: 28px;
     size: auto;
+    margin: 2em 0 0 0;
 }
 
 .container__aviso{
     color: black;
+
 }
 
 .combo{
-    
-    border-radius: 20px;
-    padding: 1em;
-    background-color:var(--laranja-principal);
-    text-decoration-line: none;
-    text-align: center;
+    border-radius: 40px;
+    margin: 1em 0 1em 0;
+}
+
+.principal{
+ text-align: center;
+ margin-left: 3em;
+}
+
+.container_secundario{
+
+}
+
+.festa{
+    width: 400px;
+    height: 400px;
 }
