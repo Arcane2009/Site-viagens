@@ -31,9 +31,20 @@ h1{
     margin: 2em 0 0 0;
 }
 
-.container__botao{
-    background-color:var(--amarelo-escuro);
+.container__botao1{
+    background-color:#167bf7;
     border-radius: 20px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.container__botao2{
+    background-color:var(--laranja-principal);
+    border-radius: 20px;
+    border-style: solid;
     padding: 1em;
     color: var(--branco);
     display: block;
@@ -62,11 +73,29 @@ h1{
  margin-left: 3em;
 }
 
-.container_secundario{
-
+.festa{
+    width: 50%;
+    margin-left: 3em;
 }
 
-.festa{
-    width: 400px;
-    height: 400px;
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+    margin-left: 0px;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+}
+
+.container__descricao{
+    margin: 0 -15em;
+}
+
+.descricao__texto{
+    font-weight: 70;
+    font-size: 30px;
+    text-align: left;
 }
