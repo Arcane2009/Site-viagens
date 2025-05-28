@@ -1,0 +1,151 @@
+:root {
+    --amarelo-principal:#FFE670;
+    --amarelo-escuro:#FFD570;
+    --laranja-principal:#FFC370;
+    --laranja-escuro:#FFAB70;
+    --vermelho:#FF9270;
+    --bege:#FFE7C5;
+    --branco:#FFFFFF;
+    --fonte-principal:"PT Serif"
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color:var(--laranja-principal);
+        color:var(--branco);
+        font-family:var(--fonte-principal);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .container{
+        height:100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }    
+h1{
+    font-size: 28px;
+    margin: 2em 0 0 0;
+}
+
+.container__botao1{
+    background-color:#167bf7;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.container__botao2{
+    background-color:var(--laranja-principal);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.container__avião{
+    font-size: 28px;
+    size: auto;
+    margin: 2em 0 0 0;
+}
+
+.container__aviso{
+    color: black;
+
+}
+
+.combo{
+    border-radius: 40px;
+    margin: 1em 0 1em 0;
+}
+
+.principal{
+ text-align: center;
+ margin-left: 3em;
+}
+
+.festa{
+    width: 50%;
+    margin-left: 3em;
+}
+
+.secundario{
+    align-items: center;
+    margin: -20em 10em;
+    margin-left: 0px;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+}
+
+.container__descricao{
+    margin: 0 -15em;
+}
+
+.descricao__texto{
+    font-weight: 70;
+    font-size: 20px;
+    text-align: left;
+}
+
+.descricao__titulo2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+    text-align: center;
+}
+
+.container__descricao2{
+    margin: 15em 5em;
+}
+
+.descricao__texto2{
+    font-weight: 70;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aviao{
+    size: 10%;
+    margin-left: 3em;
+}
+
+.secundario__botao{
+    background-color:#167bf7;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.notebook{
+    width: 50%;
+    margin-left: 4em;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    margin-top: 10em;
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 46px;
+}
