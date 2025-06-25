@@ -149,3 +149,40 @@ h1{
 .dispositivos__titulo{
     font-size: 46px;
 }
+.container__botao1:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: var(--vermelho);
+}
+.container__botao2:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: var(--vermelho);
+}
+.secundario__botao:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: #b856fa
+}
+.lista__link a:hover{
+    color: yellow;
+}
+.rodape{
+    text-align: center;
+    margin: 3em 3em;
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-left: 1.5em;
+}
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--branco);
+}
